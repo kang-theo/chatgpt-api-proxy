@@ -18,3 +18,11 @@ npx pm2 restart <id>
 npx pm2 stop <id>
 npx pm2 delete <id>
 ```
+
+## Test
+
+Using Postman
+
+- Send a POST request to the route `/api/gpt/chat`
+- Set the body to a JSON format `{"messages": [ {  "role": "user", "content": "你好，你是谁" }  ]}`
+- Add a header `x-auth-token: xxx` ，defined in `.env`
