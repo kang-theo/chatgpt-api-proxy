@@ -33,3 +33,8 @@ Server-send Event does not support POST very well, so send GET instead.
 ```bash
 $ip:$port/api/gpt/chat?x-auth-token=xxx&option={"messages": [ { "role": "user", "content": "How are you?" } ]}
 ```
+
+## Deploy
+
+- Submitting deploy branch to GitHub will trigger the deployment of "gpt-api-proxy" to AWS EC2 (ci.yml).
+- Set the environment variables in `.env`
