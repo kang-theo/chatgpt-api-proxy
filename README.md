@@ -26,7 +26,7 @@ Using Postman.
 
 Server-send Event does not support POST very well, so send GET instead.
 
-- Send a POST request to the route `/api/gpt/chat`
+- Send a GET request to the route `/api/gpt/chat`
 - Set `option`: `{"messages": [ { "role": "user", "content": "How are you?" } ]}`
 - Add a header `x-auth-token: xxx` ，defined in `.env`
 
