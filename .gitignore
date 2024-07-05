@@ -22,3 +22,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# aider: AI pair programming in your terminal
+# https://github.com/paul-gauthier/aider
+.aider*
